@@ -4,17 +4,12 @@
 <head>
 
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Web Design Challenge</title>
+  <title>Visualization - Cloudiness</title>
 
   <!-- Bring in our bootstrap stylesheet -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
   <link rel="stylesheet" href="style.css">
-  <style> 
-    .navbar-nav { 
-        margin-left: auto; 
-    } 
-</style>  
 </head>
 <header >
 
@@ -50,10 +45,10 @@
 
     <div class ="row" >
       <div class ="col-md-12">
-        <div class="box">
+        <!-- <div class="box">
           <h1><center> Welcome to the quest of understanding weather !</center></h1><br/>
           
-        </div>
+        </div> -->
         
       </div>
       <!-- <div class = "row">
@@ -65,30 +60,24 @@
       </div> -->
     </div>
   </div>
-</header>
-<body style = "background-color :rgb(7, 8, 8)">
+</header> 
+<body style = "background-color :rgb(170, 154, 165)">
 
   
   <div class="container">
-    <div class = "jumbotron" >
-      <h1 class="display-10"> Weather Analysis based on Latitude</h1>
-      <div class="row">
-        <div class="col-md-12">
-        <h3>
-        Summary
-        </h3>
-      </div>
-      </div>
-      <p class = "lead">
-        The purpose of this project is to analyze how weather changes as you get closer to the equator. To accomplish this analysiswe first pulled out data from OpenWeatherMap API to assemble data set of over 500 cities.
-      </p>
-      <p class = "lead">
-        After assembling the dataset, we used Matplotlib to plot the various aspects of the weather VS latitude. Factors we looked at included: temperature,cloudiness, windspeed and humidity. This site provides the source data and visualizations created as a part of the analysis, as well as explainations and descriptions of any trends and correlations witnessed.
-      </p>
-    </div>
-    <footer class = "text-center text-white fixed-bottom">
     <div class="row">
+      <img src="Images/Fig 3.png">
+    </div>
+    <div class = "jumbotron">
+      <h1 class="display-`"> Impact of Latitude on Cloudiness</h1>
       
+      </div>
+      <p class = "lead">
+        This visualization plots the data between the Cloudiness of a City against the Latitude of that City. Here we observe that the cloudiness of a city is not varying or showing a relationship with the latitude of the city. At each Latitude there are data points which are having high cloudiness as well as low cloudiness. </p>
+      
+    
+    <div class="row">
+          
       <div class="col-md-12">
           <h1>
             Visualizations
@@ -98,14 +87,13 @@
     
     <div class ="row">
       <div class = "col-md-12">
-        <h4 class="text-white">
+        <h4 >
         Click on the thumbnails below to read more about these Visualizations
         </h4>
       </div>
     </div>
-    
     <div class="row">
-      
+          
       <div class = "col-md-3">
         
         <p class="lead">
@@ -132,10 +120,10 @@
       </div>
 
     </div>
-  </footer>
   </div>
+ 
     
-
+</div>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
